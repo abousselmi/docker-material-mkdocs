@@ -1,4 +1,4 @@
-# Docker Material MkDocs
+# DoXtak: Docker Material MkDocs Stack
 A docker container for MkDocs with the Material theme.
 
 ## Production mode
