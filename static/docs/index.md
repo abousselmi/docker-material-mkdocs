@@ -1,4 +1,4 @@
-# Doxtak
+# About DoXtak
 
 A production grade documentation portal for all you
 projects.
