@@ -33,6 +33,10 @@ As you can see, two separate volumes are used:
 * /doxtak/docs for the source files (*.md)
 * /www for build (you can serve directly from this volume)
 
+## Screenshot
+
+![DoXtak screenshot](https://i.imgur.com/TcKW1Da.png "DoXtak screenshot")
+
 ## Documentation
 
 For more info, please visit:
