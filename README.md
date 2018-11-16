@@ -13,7 +13,7 @@ To build source files you can use:
 docker run \
   -v $PWD/samples:/doxtak/docs/my_projects \
   -v /root/www:/www \
-  doxtak build -f doxtak/mkdocs.yml
+  abousselmi/doxtak build -f doxtak/mkdocs.yml
 ```
 
 ## Development mode
@@ -25,7 +25,7 @@ docker run -it --rm \
   -p 80:80 \
   -v $PWD/samples:/doxtak/docs/my_projects \
   -v /root/www:/www \
-  doxtak serve -a 0.0.0.0:80 -f doxtak/mkdocs.yml
+  abousselmi/doxtak serve -a 0.0.0.0:80 -f doxtak/mkdocs.yml
 ```
 
 As you can see, two separate volumes are used:
