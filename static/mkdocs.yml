@@ -1,0 +1,51 @@
+# define your site
+site_name: 'Doxtak'
+site_description: 'An automated stack for you elegant documentation.'
+site_author: 'Ayoub BOUSSELMI and Sofiane IMADALI'
+copyright: 'Copyright © 2017 - present, Orange Labs. <b><span style="color:grey;">Ayoub Bousselmi & Sofiane Imadali</span>'
+
+# add yout code repo name and url
+repo_name: 'Github'
+repo_url: 'https://github.com/al-faraby'
+
+# add some theme configuration
+theme: 
+  name: 'material'
+  palette:
+    primary: 'white'
+    accent: 'green'
+  logo:
+    icon: 'local_library'
+  favicon: 'assets/images/favicon.png'
+  language: 'en'
+
+# add a source directory
+docs_dir: '/doxtak'
+
+# add a build directory
+site_dir: '/www'
+
+# add some extra options
+extra:
+  search:
+    tokenizer: '[\s\-\.]+'
+  social:
+    - type: globe
+      link: https://al-faraby.github.io/
+
+# add some style
+extra_css: 
+  - 'assets/css/extra.css'
+
+# add math support
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+# add some extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+  - footnotes
+  - toc:
+      permalink: true
