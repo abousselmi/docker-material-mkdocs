@@ -6,11 +6,11 @@ A docker container for MkDocs with the Material theme.
 You can use the mkdocs built-in web server:
 
 ``` console
-git clone https://github.com/abousselmi/doxtak.git
+git clone https://github.com/abousselmi/doxtak-build.git
 ```
 
 ``` console
-cd doxtak
+cd doxtak-build
 ```
 
 ``` console
@@ -18,7 +18,7 @@ docker run -it --rm \
   -p 80:80 \
   -v $PWD/samples:/doxtak/docs/my_projects \
   -v /root/www:/www \
-  abousselmi/doxtak serve -a 0.0.0.0:80 -f doxtak/mkdocs.yml
+  abousselmi/doxtak-build serve -a 0.0.0.0:80 -f doxtak/mkdocs.yml
 ```
 
 As you can see, two separate volumes are used:
@@ -38,7 +38,7 @@ To build source files you can use:
 docker run \
   -v $PWD/samples:/doxtak/docs/my_projects \
   -v /root/www:/www \
-  abousselmi/doxtak build -f doxtak/mkdocs.yml
+  abousselmi/doxtak-build build -f doxtak/mkdocs.yml
 ```
 
 ## Screenshot
