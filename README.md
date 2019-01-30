@@ -6,7 +6,11 @@ A docker container for MkDocs with the Material theme.
 You can use the mkdocs built-in web server:
 
 ``` console
+# using HTTP
 git clone https://github.com/abousselmi/doxtak-build.git
+
+# or using SSH
+git clone git@github.com:abousselmi/doxtak-build.git
 ```
 
 ``` console
