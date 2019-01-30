@@ -1,6 +1,6 @@
 # About DoXtak
 
-A production grade documentation portal for all you
+A production grade documentation portal for all your
 projects.
 
 For more info, please visit
